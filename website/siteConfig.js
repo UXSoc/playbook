@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'UXSoc Playbook', // Title for your website.
+  tagline: 'We create people who can solve problems in the community using design.',
+  url: 'https://playbook.uxsociety.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
