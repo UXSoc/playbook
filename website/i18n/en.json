@@ -3,11 +3,11 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "We create people who can solve problems in the community using design.",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "product-design-sprint": {
+        "title": "What are Product Design Sprints?",
+        "sidebar_label": "What are Product Design Sprints?"
       },
       "doc2": {
         "title": "document number 2"
@@ -23,13 +23,13 @@
       }
     },
     "links": {
-      "Docs": "Docs",
+      "Product Design Sprint": "Product Design Sprint",
       "API": "API",
       "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
+      "Product Design Sprint": "Product Design Sprint",
       "First Category": "First Category",
       "Second Category": "Second Category"
     }
