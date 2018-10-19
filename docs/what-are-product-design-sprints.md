@@ -4,7 +4,7 @@ title: What are Product Design Sprints?
 sidebar_label: What are Product Design Sprints?
 ---
 
-All our projects are design-led, starting with post-its and sketching, ending
+All our projects are design-centric, starting with post-its and sketching, ending
 with design implemented as code in the app. We use design sprints and user
 research to understand our client's problems, validate assumptions about the
 products, and build products that are user-centered.
@@ -17,7 +17,7 @@ products, and build products that are user-centered.
 > what it looks like and feels like. Design is how it works." - Steve Jobs
 
 [Product Design
-Sprints](https://robots.thoughtbot.com/the-product-design-sprint) an invention
+Sprints](https://robots.thoughtbot.com/the-product-design-sprint), an invention
 of [Google Ventures' Design Team](http://www.gv.com/team/#design), are 5-phase
 exercises intended to improve the chances of [making something people
 want](http://paulgraham.com/good.html). We want to turn false confidence into
@@ -26,8 +26,8 @@ bullets by learning we shouldn't begin the expensive build at all.
 
 Sprints are useful starting points when kicking off a new product or workflow,
 as well as solving problems with an existing product. They typically last 5 days
-but we have done them in less time. We get as many stakeholders and expertises
-in the room as we can.
+but we have done them in less time because we try to get as many stakeholders
+and expertises in the room as we can.
 
 Product design sprints are test-driven design.
 
