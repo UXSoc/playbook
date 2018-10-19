@@ -4,6 +4,8 @@ title: Phase 5: Test and Learn
 sidebar_label: Phase 5: Test and Learn
 ---
 
+![](/img/test-learn.jpg)
+
 Finally, we interview 5 users to test our understanding of them, their context,
 and our prototype. This is not a usability test. We begin the conversation as an
 interview before showing them the prototype.

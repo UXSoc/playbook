@@ -4,6 +4,8 @@ title: Phase 4: Prototype
 sidebar_label: Phase 4: Prototype
 ---
 
+![](/img/figma.jpg)
+
 After another pitch practice to rally the troops, there are no exercises in this
 phase. It is entirely focused on building the right prototype(s) with just the
 right amount of fidelity to generate useful test results.
