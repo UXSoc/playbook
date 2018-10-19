@@ -3,12 +3,8 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "We create people who can solve problems in the community using design.",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
-      },
       "doc2": {
         "title": "document number 2"
       },
@@ -20,16 +16,44 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "phase0-prepare": {
+        "title": "Phase 0: Prepare",
+        "sidebar_label": "Phase 0: Prepare"
+      },
+      "phase1-understand": {
+        "title": "Phase 1: Understand",
+        "sidebar_label": "Phase 1: Understand"
+      },
+      "phase2-diverge": {
+        "title": "Phase 2: Diverge",
+        "sidebar_label": "Phase 2: Diverge"
+      },
+      "phase3-converge": {
+        "title": "Phase 3: Converge",
+        "sidebar_label": "Phase 3: Converge"
+      },
+      "phase4-prototype": {
+        "title": "Phase 4: Prototype",
+        "sidebar_label": "Phase 4: Prototype"
+      },
+      "phase5-test-and-learn": {
+        "title": "Phase 5: Test and Learn",
+        "sidebar_label": "Phase 5: Test and Learn"
+      },
+      "product-design-sprint": {
+        "title": "What are Product Design Sprints?",
+        "sidebar_label": "What are Product Design Sprints?"
       }
     },
     "links": {
-      "Docs": "Docs",
+      "Product Design Sprint": "Product Design Sprint",
       "API": "API",
       "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
+      "Product Design Sprint": "Product Design Sprint",
       "First Category": "First Category",
       "Second Category": "Second Category"
     }
