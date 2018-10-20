@@ -25,6 +25,34 @@
         "title": "JavaScript Overview",
         "sidebar_label": "JS Overview"
       },
+      "pds-planning-daily": {
+        "title": "Daily standups build trust and maintain momentum",
+        "sidebar_label": "Daily standups build trust and maintain momentum"
+      },
+      "pds-planning-manage": {
+        "title": "Manage priorities and visualize progress with a lightweight process",
+        "sidebar_label": "Manage priorities and visualize progress with a lightweight process"
+      },
+      "pds-planning-meet": {
+        "title": "Meet weekly to discuss successes, failures, and future plans",
+        "sidebar_label": "Meet weekly to discuss successes, failures, and future plans"
+      },
+      "pds-planning-nothing": {
+        "title": "Nothing beats in-person communication",
+        "sidebar_label": "Nothing beats in-person communication"
+      },
+      "pds-planning-process": {
+        "title": "Processes need to adapt to the needs of the product team",
+        "sidebar_label": "Processes need to adapt to the needs of the product team"
+      },
+      "pds-planning-remote": {
+        "title": "A functioning remote team doesn't happen by accident",
+        "sidebar_label": "A functioning remote team doesn't happen by accident"
+      },
+      "pds-planning": {
+        "title": "Planning",
+        "sidebar_label": "Planning"
+      },
       "phase0-prepare": {
         "title": "Phase 0: Prepare",
         "sidebar_label": "Phase 0: Prepare"
