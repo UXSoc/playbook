@@ -1,2 +1,0 @@
-[context.branch-deploy.environment]
-    YARN_FLAGS = "--cwd ./website/"
