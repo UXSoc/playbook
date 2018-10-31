@@ -10,14 +10,7 @@
 
 // List of projects/orgs using your project for the users page.
 const users = [
-  {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/UXSocietyLogo.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
+  //Empty to remove on the front
 ];
 
 const siteConfig = {
@@ -31,17 +24,17 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'test-site',
-  organizationName: 'facebook',
+  organizationName: 'User Experience Society',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'product-design-sprint', label: 'Product Design Sprint'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'product-design-sprint', label: 'Connect'},
+    {doc: 'doc4', label: 'UX'},
+    {page: 'help', label: 'Design'},
+    {blog: '', label: 'Develop'},
   ],
 
   // If you have users set above, you add it here:
@@ -73,7 +66,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} User Experience Society`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
