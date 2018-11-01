@@ -80,9 +80,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href="#try">Get Started</Button>
+            <Button href={docUrl('doc1.html', language)}>What Is This?</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -103,14 +102,14 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
+        content: 'Start communicating with other members through Slack and more',
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Connect',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Learn about user experience principles and why it matters.',
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'User Experience',
       },
     ]}
   </Block>
@@ -120,8 +119,8 @@ const FeatureCallout = () => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>Design Proccess</h2>
+    <MarkdownBlock>Discover how to design products so that they are most successful.</MarkdownBlock>
   </div>
 );
 
@@ -129,33 +128,9 @@ const LearnHow = () => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
+        content: 'Get resources to speed up and simplify the product development process.',
         imageAlign: 'right',
-        title: 'Learn How',
-      },
-    ]}
-  </Block>
-);
-
-const TryOut = () => (
-  <Block id="try">
-    {[
-      {
-        content: 'Talk about trying this out',
-        imageAlign: 'left',
-        title: 'Try it Out',
-      },
-    ]}
-  </Block>
-);
-
-const Description = () => (
-  <Block background="dark">
-    {[
-      {
-        content: 'This is another description of how this project is useful',
-        imageAlign: 'right',
-        title: 'Description',
+        title: 'Software Development',
       },
     ]}
   </Block>
@@ -197,8 +172,6 @@ class Index extends React.Component {
           <Features />
           <FeatureCallout />
           <LearnHow />
-          <TryOut />
-          <Description />
           <Showcase language={language} />
         </div>
       </div>
