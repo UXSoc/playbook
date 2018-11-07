@@ -84,7 +84,16 @@ class HomeSplash extends React.Component {
   }
 }
 
-const Block = props => (
+const BlockBottom = props => (
+  <Container
+    padding={['bottom']}
+    id={props.id}
+    background={props.background}>
+    <GridBlock align="center" contents={props.children} layout={props.layout} />
+  </Container>
+);
+
+const BlockTop = props => (
   <Container
     padding={['top']}
     id={props.id}
@@ -94,7 +103,7 @@ const Block = props => (
 );
 
 const Features = () => (
-  <Block layout="fourColumn">
+  <BlockBottom layout="fourColumn">
     {[
       {
         content: 'Start communicating with other members through Slack and more',
@@ -109,11 +118,11 @@ const Features = () => (
         title: 'User Experience',
       },
     ]}
-  </Block>
+  </BlockBottom>
 );
 
 const FeatureCallout = () => (
-  <Block background="light">
+  <BlockTop background="light">
     {[
       {
         content: 'Discover how to design products so that they are most successful.',
@@ -122,11 +131,11 @@ const FeatureCallout = () => (
         title: 'Design Process',
       },
     ]}
-  </Block>
+  </BlockTop>
 );
 
 const LearnHow = () => (
-  <Block>
+  <BlockTop>
     {[
       {
         content: 'Get resources to speed up and simplify the product development process.',
@@ -135,7 +144,7 @@ const LearnHow = () => (
         title: 'Software Development',
       },
     ]}
-  </Block>
+  </BlockTop>
 );
 
 const Showcase = props => {
