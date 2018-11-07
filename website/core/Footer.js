@@ -53,14 +53,18 @@ class Footer extends React.Component {
               Our Website
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="http://bit.ly/UXSocSlack"
               target="_blank"
               rel="noreferrer noopener">
               Slack
             </a>
-            <a href="https://discordapp.com/">Twitter</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/UXSocChapmanU"
+              target="_blank"
+              rel="noreferrer noopener">
+              Twitter
+            </a>            <a
+              href="https://facebook.com/UXSoc"
               target="_blank"
               rel="noreferrer noopener">
               Facebook
@@ -68,8 +72,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/UXSoc">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
