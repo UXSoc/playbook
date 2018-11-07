@@ -106,14 +106,14 @@ const Features = () => (
   <BlockBottom layout="fourColumn">
     {[
       {
-        content: 'Start communicating with other members through Slack and more.',
+        content: '[Start communicating]() with other members through Slack and more.',
         image: imgUrl('connect.png'),
         imageAlign: 'top',
         imageLink: siteConfig.baseUrl + '',
         title: 'Connect',
       },
       {
-        content: 'Learn about user experience principles and why it matters.',
+        content: '[Learn]() about user experience principles and why it matters.',
         image: imgUrl('ux.png'),
         imageAlign: 'top',
         imageLink: siteConfig.baseUrl + '',
@@ -127,7 +127,7 @@ const FeatureCallout = () => (
   <BlockTop background="light">
     {[
       {
-        content: 'Discover how to design products so that they are most successful.',
+        content: '[Discover]() how to design products so that they are most successful.',
         image: imgUrl('design.png'),
         imageAlign: 'left',
         title: 'Design Process',
@@ -141,7 +141,7 @@ const LearnHow = () => (
   <BlockTop>
     {[
       {
-        content: 'Get resources to speed up and simplify the product development process.',
+        content: '[Get resources]() to speed up and simplify the product development process.',
         image: imgUrl('dev.png'),
         imageAlign: 'right',
         imageLink: siteConfig.baseUrl + '',
