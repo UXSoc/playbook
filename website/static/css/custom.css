@@ -14,3 +14,22 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+/* Used to override */
+
+/* fix header
+    NOTE: changes this everywhere including when not centering text through react
+*/
+.blockContent h2 {
+    text-align: center !important;
+}
+
+/* Makes icons a reasonable size */
+.imageAlignTop .blockImage {
+    max-width: 20rem;
+}
+
+/* Fixes main images size */
+.gridBlock .twoByGridBlock img {
+    max-width: 20rem;
+}

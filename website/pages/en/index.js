@@ -51,11 +51,6 @@ const SplashContainer = props => (
   </div>
 );
 
-const Logo = props => (
-  <div className="projectLogo">
-    <img src={props.img_src} alt="Project Logo" />
-  </div>
-);
 
 const ProjectTitle = () => (
   <h2 className="projectTitle">
@@ -89,9 +84,18 @@ class HomeSplash extends React.Component {
   }
 }
 
-const Block = props => (
+const BlockBottom = props => (
   <Container
-    padding={['bottom', 'top']}
+    padding={['bottom']}
+    id={props.id}
+    background={props.background}>
+    <GridBlock align="center" contents={props.children} layout={props.layout} />
+  </Container>
+);
+
+const BlockTop = props => (
+  <Container
+    padding={['top']}
     id={props.id}
     background={props.background}>
     <GridBlock align="center" contents={props.children} layout={props.layout} />
@@ -99,41 +103,52 @@ const Block = props => (
 );
 
 const Features = () => (
-  <Block layout="fourColumn">
+  <BlockBottom layout="fourColumn">
     {[
       {
-        content: 'Start communicating with other members through Slack and more',
+        content: '[Start communicating]() with other members through Slack and more.',
+        image: imgUrl('connect.png'),
         imageAlign: 'top',
+        imageLink: siteConfig.baseUrl + '',
         title: 'Connect',
       },
       {
-        content: 'Learn about user experience principles and why it matters.',
+        content: '[Learn]() about user experience principles and why it matters.',
+        image: imgUrl('ux.png'),
         imageAlign: 'top',
+        imageLink: siteConfig.baseUrl + '',
         title: 'User Experience',
       },
     ]}
-  </Block>
+  </BlockBottom>
 );
 
 const FeatureCallout = () => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <h2>Design Proccess</h2>
-    <MarkdownBlock>Discover how to design products so that they are most successful.</MarkdownBlock>
-  </div>
+  <BlockTop background="light">
+    {[
+      {
+        content: '[Discover]() how to design products so that they are most successful.',
+        image: imgUrl('design.png'),
+        imageAlign: 'left',
+        title: 'Design Process',
+        imageLink: siteConfig.baseUrl + '',
+      },
+    ]}
+  </BlockTop>
 );
 
 const LearnHow = () => (
-  <Block background="light">
+  <BlockTop>
     {[
       {
-        content: 'Get resources to speed up and simplify the product development process.',
+        content: '[Get resources]() to speed up and simplify the product development process.',
+        image: imgUrl('dev.png'),
         imageAlign: 'right',
+        imageLink: siteConfig.baseUrl + '',
         title: 'Software Development',
       },
     ]}
-  </Block>
+  </BlockTop>
 );
 
 const Showcase = props => {
