@@ -51,11 +51,6 @@ const SplashContainer = props => (
   </div>
 );
 
-const Logo = props => (
-  <div className="projectLogo">
-    <img src={props.img_src} alt="Project Logo" />
-  </div>
-);
 
 const ProjectTitle = () => (
   <h2 className="projectTitle">
@@ -103,11 +98,13 @@ const Features = () => (
     {[
       {
         content: 'Start communicating with other members through Slack and more',
+        image: imgUrl('connect.png'),
         imageAlign: 'top',
         title: 'Connect',
       },
       {
         content: 'Learn about user experience principles and why it matters.',
+        image: imgUrl('ux.png'),
         imageAlign: 'top',
         title: 'User Experience',
       },
@@ -116,19 +113,24 @@ const Features = () => (
 );
 
 const FeatureCallout = () => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <h2>Design Proccess</h2>
-    <MarkdownBlock>Discover how to design products so that they are most successful.</MarkdownBlock>
-  </div>
-);
-
-const LearnHow = () => (
   <Block background="light">
     {[
       {
+        content: 'Discover how to design products so that they are most successful.',
+        image: imgUrl('design.png'),
+        imageAlign: 'left',
+        title: 'Design Process',
+      },
+    ]}
+  </Block>
+);
+
+const LearnHow = () => (
+  <Block>
+    {[
+      {
         content: 'Get resources to speed up and simplify the product development process.',
+        image: imgUrl('dev.png'),
         imageAlign: 'right',
         title: 'Software Development',
       },
