@@ -1,10 +1,7 @@
 {
   "docs": {
-    "Product Design Sprint": ["product-design-sprint","phase0-prepare","phase1-understand","phase2-diverge","phase3-converge","phase4-prototype","phase5-test-and-learn"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Product Design Sprint": ["product-design-sprint","phase0-prepare","phase1-understand","phase2-diverge","phase3-converge","phase4-prototype","phase5-test-and-learn"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
