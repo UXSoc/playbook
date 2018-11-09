@@ -41,6 +41,10 @@
         "title": "Phase 5: Test and Learn",
         "sidebar_label": "Phase 5: Test and Learn"
       },
+      "webdev-intro": {
+        "title": "Web Development Introduction",
+        "sidebar_label": "Webdev Intro"
+      },
       "product-design-sprint": {
         "title": "What are Product Design Sprints?",
         "sidebar_label": "What are Product Design Sprints?"
@@ -54,8 +58,7 @@
     },
     "categories": {
       "Product Design Sprint": "Product Design Sprint",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Web Development": "Web Development"
     }
   },
   "pages-strings": {
