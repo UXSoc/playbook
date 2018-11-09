@@ -17,6 +17,9 @@
       "doc5": {
         "title": "Fifth Document"
       },
+      "html-basics": {
+        "title": "html-basics"
+      },
       "phase0-prepare": {
         "title": "Phase 0: Prepare",
         "sidebar_label": "Phase 0: Prepare"

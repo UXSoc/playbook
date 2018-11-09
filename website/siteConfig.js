@@ -34,7 +34,7 @@ const siteConfig = {
     {page: 'help', label: 'Connect'},
     {page: 'help', label: 'UX'},
     {doc: 'product-design-sprint', label: 'Design'},
-    {blog: '', label: 'Develop'},
+    {doc: 'webdev-intro', label: 'Develop'},
   ],
 
   // If you have users set above, you add it here:
