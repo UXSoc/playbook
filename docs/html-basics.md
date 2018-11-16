@@ -4,7 +4,7 @@ title: HTML Basics
 sidebar_label: HTML Basics
 ---
 <!-- TODO: add link for Javascript -->
-'HTML' stands for Hypertext Markup Language, lets break down what that means. Hypertext just means that text can link to other text, like how you can [go home by clicking here](/). Markup Language indicates that HTML is only used for document layout, not as a programming language like [JavaScript]().
+'HTML' stands for Hypertext Markup Language, lets break down what that means. Hypertext just means that text can link to other text, like how you can [go back to the intro by clicking here](webdev-into). Markup Language indicates that HTML is only used for document layout, not as a programming language like [JavaScript](weddev-intro.md).
 
 **HTML documents provide the content for a website.**
 
