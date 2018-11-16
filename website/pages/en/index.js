@@ -67,6 +67,7 @@ const PromoSection = props => (
   </div>
 );
 
+// TODO: Replace 'help'
 class HomeSplash extends React.Component {
   render() {
     const language = this.props.language || '';
@@ -75,8 +76,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Get Started</Button>
-            <Button href={docUrl('doc1.html', language)}>What Is This?</Button>
+            <Button href="help">Get Started</Button>
+            <Button href={docUrl('help', language)}>What Is This?</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -102,18 +103,19 @@ const BlockTop = props => (
   </Container>
 );
 
+// TODO: replace 'help' with appropriate blog article
 const Features = () => (
   <BlockBottom layout="fourColumn">
     {[
       {
-        content: '[Start communicating]() with other members through Slack and more.',
+        content: '[Start communicating](help) with other members through Slack and more.',
         image: imgUrl('connect.png'),
         imageAlign: 'top',
         imageLink: siteConfig.baseUrl + '',
         title: 'Connect',
       },
       {
-        content: '[Learn]() about user experience principles and why it matters.',
+        content: '[Learn](help) about user experience principles and why it matters.',
         image: imgUrl('ux.png'),
         imageAlign: 'top',
         imageLink: siteConfig.baseUrl + '',
