@@ -6,7 +6,8 @@
     "tagline": "We create people who can solve problems in the community using design.",
     "docs": {
       "html-basics": {
-        "title": "html-basics"
+        "title": "HTML Basics",
+        "sidebar_label": "HTML Basics"
       },
       "phase0-prepare": {
         "title": "Phase 0: Prepare",
