@@ -127,7 +127,7 @@ const FeatureCallout = () => (
   <BlockTop background="light">
     {[
       {
-        content: '[Discover]() how to design products so that they are most successful.',
+        content: '[Discover](/docs/product-design-sprint) how to design products so that they are most successful.',
         image: imgUrl('design.png'),
         imageAlign: 'left',
         title: 'Design Process',
@@ -141,7 +141,8 @@ const LearnHow = () => (
   <BlockTop>
     {[
       {
-        content: '[Get resources]() to speed up and simplify the product development process.',
+        // TODO: investigate why just 'webdev-intro.md' doesn't work let it says it should here https://docusaurus.io/docs/en/doc-markdown
+        content: '[Get resources](/docs/webdev-intro) to speed up and simplify the product development process.',
         image: imgUrl('dev.png'),
         imageAlign: 'right',
         imageLink: siteConfig.baseUrl + '',
