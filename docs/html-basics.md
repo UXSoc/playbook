@@ -28,10 +28,9 @@ Some tags only have an opening tag like `<img>`:
 - `<a href="https://www.google.com/">Link text</a>` Link tag, href is where the link goes when clicked on.
 
 
-##### Great resources to start learning more about HTML:
-- 
-- [Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+#### Great resources to start learning more about HTML:
+- [Mozilla Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Not Sure where to start? Check out this basic HTML template on UXSoc Github](https://github.com/UXSoc/html-starter)
   
-  ![](/img/hacking_w_html.jpg)
-  Unlike in movies and television shows HTML can't be used as a hacking tool because it isn't a programming language.
+ ![](/img/hacking_w_html.jpg)
+ #### Unlike in movies and television shows HTML can't be used as a hacking tool because it isn't a programming language.
