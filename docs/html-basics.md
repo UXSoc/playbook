@@ -29,6 +29,7 @@ Some tags only have an opening tag like `<img>`:
 
 
 ##### Great resources to start learning more about HTML:
+- 
 - [Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Not Sure where to start? Check out this basic HTML template on UXSoc Github](https://github.com/UXSoc/html-starter)
   
