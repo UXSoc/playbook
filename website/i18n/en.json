@@ -5,17 +5,17 @@
     "previous": "Previous",
     "tagline": "We create people who can solve problems in the community using design.",
     "docs": {
-      "doc2": {
-        "title": "document number 2"
+      "css-basics": {
+        "title": "CSS Basics",
+        "sidebar_label": "CSS Basics"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "html-basics": {
+        "title": "HTML Basics",
+        "sidebar_label": "HTML Basics"
       },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
+      "javascript-overview": {
+        "title": "JavaScript Overview",
+        "sidebar_label": "JS Overview"
       },
       "phase0-prepare": {
         "title": "Phase 0: Prepare",
@@ -40,6 +40,10 @@
       "phase5-test-and-learn": {
         "title": "Phase 5: Test and Learn",
         "sidebar_label": "Phase 5: Test and Learn"
+      },
+      "running-website": {
+        "title": "Running A Website",
+        "sidebar_label": "Run A Website"
       },
       "webdev-intro": {
         "title": "Web Development Introduction",

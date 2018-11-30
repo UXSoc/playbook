@@ -11,6 +11,8 @@ Normal guides break web development into front-end and back-end technologies, bu
 - HTML
 - CSS
 - JavaScript
-- Web Frameworks
+- Running A Website
 
 ![](/img/dev.png)
+
+Check out [UXSoc Training Modules](https://github.com/UXSoc/training-modules) to get started with web development in an interactive and practical way! 
