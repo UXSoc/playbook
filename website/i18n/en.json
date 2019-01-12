@@ -5,9 +5,17 @@
     "previous": "Previous",
     "tagline": "We create people who can solve problems in the community using design.",
     "docs": {
+      "connect-intro": {
+        "title": "Start Connecting",
+        "sidebar_label": "Get Connected"
+      },
       "css-basics": {
         "title": "CSS Basics",
         "sidebar_label": "CSS Basics"
+      },
+      "get-started": {
+        "title": "Get Started with UXSoc!",
+        "sidebar_label": "Get Started"
       },
       "html-basics": {
         "title": "HTML Basics",
@@ -45,6 +53,10 @@
         "title": "Running A Website",
         "sidebar_label": "Run A Website"
       },
+      "ux-intro": {
+        "title": "What is User Experience?",
+        "sidebar_label": "What is UX?"
+      },
       "webdev-intro": {
         "title": "Web Development Introduction",
         "sidebar_label": "Webdev Intro"
@@ -52,6 +64,10 @@
       "product-design-sprint": {
         "title": "What are Product Design Sprints?",
         "sidebar_label": "What are Product Design Sprints?"
+      },
+      "what-is-this": {
+        "title": "About UXSoc playbook",
+        "sidebar_label": "About"
       }
     },
     "links": {
