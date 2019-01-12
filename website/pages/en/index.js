@@ -76,8 +76,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="help">Get Started</Button>
-            <Button href={docUrl('help', language)}>What Is This?</Button>
+            <Button href={docUrl('get-started', language)}>Get Started</Button>
+            <Button href={docUrl('what-is-this', language)}>What Is This?</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -108,17 +108,17 @@ const Features = () => (
   <BlockBottom layout="fourColumn">
     {[
       {
-        content: '[Start communicating](help) with other members through Slack and more.',
+        content: '[Start communicating](/docs/connect-intro) with other members through Slack and more.',
         image: imgUrl('connect.png'),
         imageAlign: 'top',
-        imageLink: siteConfig.baseUrl + '',
+        imageLink: siteConfig.baseUrl + 'docs/connect-intro',
         title: 'Connect',
       },
       {
-        content: '[Learn](help) about user experience principles and why it matters.',
+        content: '[Learn](/docs/ux-intro) about user experience principles and why it matters.',
         image: imgUrl('ux.png'),
         imageAlign: 'top',
-        imageLink: siteConfig.baseUrl + '',
+        imageLink: siteConfig.baseUrl + 'docs/ux-intro',
         title: 'User Experience',
       },
     ]}
