@@ -111,14 +111,14 @@ const Features = () => (
         content: '[Start communicating](/docs/connect-intro) with other members through Slack and more.',
         image: imgUrl('connect.png'),
         imageAlign: 'top',
-        imageLink: siteConfig.url + siteConfig.baseUrl + 'docs/connect-intro',
+        imageLink: siteConfig.baseUrl + 'docs/connect-intro',
         title: 'Connect',
       },
       {
         content: '[Learn](/docs/ux-intro) about user experience principles and why it matters.',
         image: imgUrl('ux.png'),
         imageAlign: 'top',
-        imageLink: siteConfig.url + siteConfig.baseUrl + 'docs/ux-intro',
+        imageLink: siteConfig.baseUrl + 'docs/ux-intro',
         title: 'User Experience',
       },
     ]}
