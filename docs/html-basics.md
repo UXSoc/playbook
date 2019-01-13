@@ -32,5 +32,5 @@ Some tags only have an opening tag like `<img>`:
 - [Mozilla Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Not Sure where to start? Check out this basic HTML template on UXSoc Github](https://github.com/UXSoc/html-starter)
   
- ![](/img/hacking_w_html.jpg)
+ ![](/img/hacking.jpg)
  #### Unlike in movies and television shows HTML can't be used as a hacking tool because it isn't a programming language.

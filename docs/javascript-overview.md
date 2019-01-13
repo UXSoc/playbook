@@ -25,5 +25,5 @@ JavaScript is too complex of of a language to give enough of a tutorial here, ho
 - [Mozilla Web Docs: JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 - [JSBin](https://jsbin.com/) if you want to try it out in browser.
 
-![](/img/all_three.jpeg)
+![](/img/bigthree.jpg)
 #### JavaScript is the last pillar of the tools needed for web development.  

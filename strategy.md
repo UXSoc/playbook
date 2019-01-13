@@ -1,5 +1,11 @@
 # Topics
 
+- Communications (Slack/Google Drive/Social Media/Other Chapters)
+
+- UX (???)
+
+- Design (Product Design process/Planning ???)
+
 - Git/Github/Version Control
 
 - Webstorm/IDE/text editor
