@@ -1,6 +1,6 @@
 ---
 id: what-is-this
-title: About UXSoc playbook
+title: About UXSoc Playbook
 sidebar_label: About
 ---
 
