@@ -5,7 +5,7 @@ sidebar_label: Run A Website
 ---
 HTML, CSS, and JavaScript are universal because all web browsers render them, but the way to distribute these documents to the user has a lot of different ways. This is called a 'server' because it servers up documents like a waiter servers up food. 
 
-![](/img/server.jpg)
+![](/img/waiter.jpg)
 #### "I'll take the index.html, style.css and style.js on the side, please."
 
 #### Language
