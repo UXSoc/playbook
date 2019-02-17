@@ -49,7 +49,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <!-- TODO change out link when new website is up -->
+            {/* TODO change out link when new website is up */}
             <a href="https://cu.uxsociety.org/">
               Our Website
             </a>
