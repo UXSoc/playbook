@@ -188,6 +188,10 @@ For more information about the navigation bar, click [here](https://docusaurus.i
 
 For more information about custom pages, click [here](https://docusaurus.io/docs/en/custom-pages).
 
+# Custom added:
+
+We want to thank https://unsplash.com for many great photos.
+
 # Full Documentation
 
 Full documentation can be found on the [website](https://docusaurus.io/).
